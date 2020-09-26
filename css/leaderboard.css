@@ -1,0 +1,32 @@
+#Myname{
+		font-size:.6em;
+}
+#myheading{
+	width:100%;
+}
+#mytable{
+	overflow-x:auto;
+}
+table{
+	border-collapse:collapse;
+	text-align:center;
+	width:80%;
+	border:5px solid white  ;
+	border-spacing: 10px;
+}
+th{
+	height:80px;
+	border:5px solid white  ;
+	color:white;
+}
+td{
+	height:50px;
+	text-align:center;
+	border:2px solid white  ;
+	color:white;
+}
+@media (max-width: 270px){
+	#Myname {
+    font-size: .4em;
+	}
+}

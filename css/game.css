@@ -1,0 +1,212 @@
+/*Unscrollable in mobile is bad.*/
+p{
+	margin-bottom:0px;
+}
+body{
+	/*overflow: hidden;*/
+}
+#header.header-transparent {
+    background: #7EAE5E;
+    color: white;
+}
+#container2{
+	margin:30px;
+}
+table{
+	margin:7% 30px 7% 30px;
+	margin-left: 10px;
+	margin-right:10px;
+	display:inline-block;
+	background: url("../images/25BoxSnakeAndLadder2.png");
+	table-layout: auto;
+	width: 500px;
+	height:422px;
+	position:relative;
+	
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  /*margin:auto;*/
+  padding:0;
+  float:left;
+  
+	
+}
+tbody{
+	width:500px;
+	width:100px;
+}
+tr{
+	height:83px;
+}
+td{
+	
+	width: 83px;
+	/*width: 16%;*/
+}
+img{
+	width: 50px;
+	margin:0px 0px 0px 0px;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	
+}
+
+
+#right{
+	color: white;
+	border:2px solid black;
+	float:right;
+	width: 45%;
+	margin: 10px;
+	background-color:#7EAE5E;
+}
+#comments{
+	border:2px solid black;
+	
+	margin: 20px;
+	margin-top: 2px;
+    height: 90px; 
+	overflow: auto; 
+	text-align:center;
+	
+	background-color:white;
+	color:black;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#dicevaluefromjquery{
+	border:2px solid black;
+	height: 35px;
+	margin: 20px;
+	margin-top: 2px;
+	margin-left:28%;
+	margin-right:28%;
+	text-align:center;
+	width: 40%;
+	background-color:white;
+	color:black;
+}
+
+#dicevaluefromjquery2{
+	border:2px solid black;
+	height: 35px;
+	margin: 20px;
+	margin-top: 2px;
+	margin-left:28%;
+	margin-right:28%;
+	text-align:center;
+	width: 40%;
+	background-color:white;
+	color:black;
+}
+#instructions{
+	text-align:center;
+	font-size:30px;
+}
+#dicediv{
+	height: 250px;
+	margin: 20px;
+	border:2px solid black;
+	background-color:white;
+}
+#static_dice{
+	width:20%;
+	margin-top: 20%;
+	margin-left: 40%;
+    margin-right: 40%;
+}
+#rolling_dice{
+	display:none;
+	margin-top: 5%;
+	width: 50%;
+    margin-left: 28%;
+	
+}
+.divheadings{
+	text-align:center;
+}
+
+.dicevalues{
+	height:10px;
+}
+
+@media only screen and (max-width: 1700px) {
+	table{
+		margin:7% 2% 7% 12%;
+	}
+	#right{
+		width: 30%;
+		margin-right:8%;
+	}
+}
+
+@media only screen and (max-width: 1387px) {
+	table{
+		margin:7% 8% 7% 8%;
+	}
+	#right{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1127px) {
+	table{
+		margin:7% 2% 7% 2%;
+	}
+	#right{
+		width: 35%;
+		margin-right:0%;
+	}
+}
+@media only screen and (max-width: 967px) {
+	table{
+		margin:7% 0% 7% 0%;
+	}
+	#right{
+		width: 30%;
+		margin-right:0%;
+	}
+}
+@media only screen and (max-width: 900px) {
+	#right{
+		width: 27%;
+	}
+}
+@media only screen and (max-width: 843px) {
+	#right{
+		width: 23%;
+	}
+}
+@media only screen and (max-width: 655px) {
+	table{
+		margin:0% 30% 0% 10%;
+		display:block;
+	}
+	#right{
+		width: 90%;
+		display:block;
+	}
+}
+/*Change to min width*/

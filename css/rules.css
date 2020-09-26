@@ -1,0 +1,14 @@
+#menucenter{
+	background:white;
+}
+#ruleswidth{
+	width: 80%;
+}
+#rulesparagraph{
+	text-align:left; 
+	font-size: 20px; 
+	font-weight: bolder;
+}
+#rulesheading{
+	font-size:35px;
+}
